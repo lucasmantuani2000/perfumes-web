@@ -58,14 +58,14 @@ const perfumes = [
     imagen: "img/ck-in2u.png"
   },
   {
-    nombre: "212 NYC Mujer",
+    nombre: "CH 212 NYC Mujer",
     precio: "$5.700",
     categorias: ["Mujer", "Diseñador"],
     aroma: "Floral, limpio, urbano",
     imagen: "img/212-nyc-mujer.png"
   },
   {
-    nombre: "Queen of Temptation Seduction",
+    nombre: "Queen of Temptation Elegance",
     precio: "$1.500",
     categorias: ["Árabes"],
     aroma: "Dulce, intenso, sensual",

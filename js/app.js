@@ -3,7 +3,7 @@ const whatsappNumber = "59898303316";
 const perfumes = [
   {
     id: "afnan-9pm",
-    nombre: "AFNAN 9PM",
+    nombre: "Lattafa AFNAN 9PM",
     precio: "$3.990",
     categorias: ["Árabes", "Hombre"],
     aroma: "Vainilla, manzana, canela, dulce",
@@ -139,7 +139,7 @@ const perfumes = [
   },
   {
     id: "ch-212-nyc-mujer",
-    nombre: "CH 212 NYC",
+    nombre: "Carolina Herrera 212 NYC",
     precio: "$5.700",
     categorias: ["Mujer", "Diseñador"],
     aroma: "Floral, limpio, urbano",
@@ -258,7 +258,7 @@ const perfumes = [
   },
   {
     id: "ch-212-men-sexy",
-    nombre: "CH 212 MEN Sexy",
+    nombre: "Carolina Herrera 212 MEN Sexy",
     precio: "$3.800",
     categorias: ["Hombre", "Diseñador"],
     aroma: "Mandarina, pimienta, vainilla",
@@ -275,7 +275,7 @@ const perfumes = [
   },
   {
     id: "ch-212-vip-black",
-    nombre: "CH 212 VIP Black",
+    nombre: "Carolina Herrera 212 VIP Black",
     precio: "$3.800",
     categorias: ["Hombre", "Diseñador"],
     aroma: "Lavanda, anís, vainilla",
@@ -292,7 +292,7 @@ const perfumes = [
   },
   {
     id: "ch-212-men-nyc",
-    nombre: "CH 212 MEN NYC",
+    nombre: "Carolina Herrera 212 MEN NYC",
     precio: "$3.800",
     categorias: ["Hombre", "Diseñador"],
     aroma: "Bergamota, jengibre, sándalo",
@@ -323,7 +323,385 @@ const perfumes = [
     },
     duracion: "Alta",
     proyeccion: "Alta"
-  }
+  },
+  {
+  id: "lattafa-yara-moi",
+  nombre: "Lattafa Yara Moi",
+  precio: "$2.100",
+  categorias: ["Árabes", "Mujer"],
+  aroma: "Jazmín, caramelo, sándalo",
+  imagen: "img/asadblanco.png",
+  fotos: ["img/asadblanco.png"],
+  descripcion: "Lattafa Yara Moi es una fragancia femenina dulce, cremosa y elegante. Combina flores blancas con acordes gourmand y un fondo amaderado, creando un aroma sofisticado y muy envolvente para cualquier ocasión.",
+  notas: {
+    salida: "Jazmín y durazno",
+    corazon: "Caramelo y ámbar",
+    fondo: "Sándalo y pachulí"
+  },
+  duracion: "Alta",
+  proyeccion: "Media a alta"
+},
+
+{
+  id: "lattafa-yara",
+  nombre: "Lattafa Yara",
+  precio: "$2.100",
+  categorias: ["Árabes", "Mujer"],
+  aroma: "Orquídea, vainilla, frutas tropicales",
+  imagen: "img/lattafayara.png",
+  fotos: ["img/lattafayara.png"],
+  descripcion: "Lattafa Yara es una fragancia femenina dulce, cremosa y moderna. Su combinación de frutas tropicales, flores delicadas y vainilla crea un aroma envolvente, ideal para quienes buscan un perfume elegante y muy femenino.",
+  notas: {
+    salida: "Heliotropo, orquídea y mandarina",
+    corazon: "Acordes gourmand y frutas tropicales",
+    fondo: "Vainilla, almizcle y sándalo"
+  },
+  duracion: "Alta",
+  proyeccion: "Media a alta"
+},
+
+{
+  id: "hugo-boss-bottled-tonic",
+  nombre: "Hugo Boss Bottled Tonic",
+  precio: "$3.100",
+  categorias: ["Hombre", "Diseñador"],
+  aroma: "Pomelo, jengibre, vetiver",
+  imagen: "img/boss-tonic.png",
+  fotos: ["img/boss-tonic.png"],
+  descripcion: "Hugo Boss Bottled Tonic es una fragancia masculina fresca y elegante. Su perfil cítrico y amaderado la convierte en una excelente opción para el uso diario, especialmente en días cálidos.",
+  notas: {
+    salida: "Pomelo, naranja amarga, limón y manzana",
+    corazon: "Jengibre, canela, clavo de olor y geranio",
+    fondo: "Vetiver y notas amaderadas"
+  },
+  duracion: "Media",
+  proyeccion: "Moderada"
+},
+
+{
+  id: "moschino-cheap-and-chic",
+  nombre: "Moschino Cheap & Chic",
+  precio: "$3.500",
+  categorias: ["Mujer", "Diseñador"],
+  aroma: "Durazno, rosa, almizcle",
+  imagen: "img/cheapandchicLove.png",
+  fotos: ["img/cheapandchicLove.png"],
+  descripcion: "Moschino Cheap & Chic es una fragancia femenina fresca, alegre y elegante. Su mezcla de frutas y flores ofrece un aroma delicado y muy versátil para cualquier ocasión.",
+  notas: {
+    salida: "Yuzu, bergamota, petitgrain y palo de rosa",
+    corazon: "Rosa, peonía, ciclamen, violeta y jazmín",
+    fondo: "Almizcle, vainilla, vetiver y orquídea"
+  },
+  duracion: "Media",
+  proyeccion: "Moderada"
+},
+
+{
+  id: "cr7-game-on",
+  nombre: "Cristiano Ronaldo Game On",
+  precio: "$2.300",
+  categorias: ["Hombre", "Diseñador"],
+  aroma: "Manzana, lavanda, haba tonka",
+  imagen: "img/cr7gameon.png",
+  fotos: ["img/cr7gameon.png"],
+  descripcion: "Cristiano Ronaldo Game On es una fragancia masculina moderna y juvenil. Combina notas frutales y aromáticas con un fondo cálido, ideal para salidas, uso diario o quienes buscan un perfume versátil.",
+  notas: {
+    salida: "Manzana, papaya, cardamomo y pimienta",
+    corazon: "Lavanda, violeta y elemí",
+    fondo: "Haba tonka, madera de cachemira, cedro y azúcar"
+  },
+  duracion: "Media",
+  proyeccion: "Moderada"
+},
+{
+  id: "daisy-fuentes-dianoche-ocean",
+  nombre: "Daisy Fuentes Dianoche Ocean",
+  precio: "$2.300",
+  categorias: ["Mujer", "Diseñador"],
+  aroma: "Notas acuáticas, jazmín, coco",
+  imagen: "img/daisydianoche.png",
+  fotos: ["img/daisydianoche.png"],
+  descripcion: "Daisy Fuentes Dianoche Ocean es una fragancia femenina fresca, floral y tropical. Combina notas acuáticas con flores suaves y un fondo cremoso, ideal para quienes buscan un aroma limpio, delicado y diferente.",
+  notas: {
+    salida: "Naranja amarga, bergamota, notas acuáticas y notas verdes",
+    corazon: "Orquídea de vainilla, notas marinas, gardenia, jazmín y flores",
+    fondo: "Coco, ámbar, almizcle blanco y pachulí"
+  },
+  duracion: "Media",
+  proyeccion: "Moderada"
+},
+{
+  id: "issey-miyake-pour-homme",
+  nombre: "Issey Miyake Pour Homme",
+  precio: "$3.300",
+  categorias: ["Hombre", "Diseñador"],
+  aroma: "Yuzu, especias, maderas",
+  imagen: "img/issey-miyake-combo.png",
+  fotos: ["img/issey-miyake-combo.png"],
+  descripcion: "Issey Miyake Pour Homme es una fragancia masculina fresca, cítrica y elegante. Su salida brillante de yuzu junto a un fondo amaderado la convierten en un clásico versátil para el día a día.",
+  notas: {
+    salida: "Yuzu, limón, bergamota y estragón",
+    corazon: "Nuez moscada, canela, loto y azafrán",
+    fondo: "Vetiver, cedro, sándalo, tabaco y almizcle"
+  },
+  duracion: "Media a alta",
+  proyeccion: "Moderada"
+},
+{
+  id: "issey-miyake-intense",
+  nombre: "Issey Miyake Pour Homme Intense",
+  precio: "$2.700",
+  categorias: ["Hombre", "Diseñador"],
+  aroma: "Yuzu, incienso, ámbar",
+  imagen: "img/issey-miyake-intense.png",
+  fotos: ["img/issey-miyake-intense.png"],
+  descripcion: "Issey Miyake Pour Homme Intense es una fragancia masculina profunda, cítrica y especiada. Mantiene la frescura del clásico, pero suma un fondo ahumado y ambarado con más carácter.",
+  notas: {
+    salida: "Yuzu, bergamota, naranja dulce y mandarina",
+    corazon: "Nuez moscada, loto, cardamomo, canela y azafrán",
+    fondo: "Incienso, papiro, ámbar gris, benjuí y ámbar"
+  },
+  duracion: "Alta",
+  proyeccion: "Media a alta"
+},
+{
+  id: "jpg-le-beau-edt",
+  nombre: "Jean Paul Gaultier Le Beau EDT",
+  precio: "$5.900",
+  categorias: ["Hombre", "Diseñador"],
+  aroma: "Bergamota, coco, haba tonka",
+  imagen: "img/jeanpauledtlebeauedt.png",
+  fotos: ["img/jeanpauledtlebeauedt.png"],
+  descripcion: "Jean Paul Gaultier Le Beau EDT es una fragancia masculina fresca, dulce y seductora. Su mezcla de bergamota, coco y haba tonka crea un aroma moderno, tropical y muy llamativo.",
+  notas: {
+    salida: "Bergamota",
+    corazon: "Coco",
+    fondo: "Haba tonka"
+  },
+  duracion: "Media a alta",
+  proyeccion: "Media a alta"
+},
+{
+  id: "jpg-le-beau-le-parfum",
+  nombre: "Jean Paul Gaultier Le Beau Le Parfum",
+  precio: "$6.300",
+  categorias: ["Hombre", "Diseñador"],
+  aroma: "Coco, haba tonka, sándalo",
+  imagen: "img/jean-paul-gaultier-lebeau.png",
+  fotos: ["img/jean-paul-gaultier-lebeau.png"],
+  descripcion: "Jean Paul Gaultier Le Beau Le Parfum es una fragancia masculina intensa, cálida y sensual. Potencia el lado dulce y tropical del Le Beau original con un fondo más amaderado, cremoso y elegante.",
+  notas: {
+    salida: "Piña, iris, jengibre y ciprés",
+    corazon: "Coco y notas amaderadas",
+    fondo: "Haba tonka, sándalo, ámbar y ámbar gris"
+  },
+  duracion: "Alta",
+  proyeccion: "Alta"
+},
+{
+  id: "jpg-le-male",
+  nombre: "Jean Paul Gaultier Le Male",
+  precio: "$5.900",
+  categorias: ["Hombre", "Diseñador"],
+  aroma: "Lavanda, vainilla, menta",
+  imagen: "img/jeanpaullemale.png",
+  fotos: ["img/jeanpaullemale.png"],
+  descripcion: "Jean Paul Gaultier Le Male es una fragancia masculina icónica, fresca y seductora. Combina notas aromáticas con un fondo dulce y cálido, convirtiéndose en un clásico ideal para cualquier ocasión.",
+  notas: {
+    salida: "Menta, lavanda, bergamota, cardamomo y artemisa",
+    corazon: "Canela, flor de azahar y alcaravea",
+    fondo: "Vainilla, haba tonka, sándalo, cedro y ámbar"
+  },
+  duracion: "Alta",
+  proyeccion: "Alta"
+},
+{
+  id: "jpg-la-belle-rosea",
+  nombre: "Jean Paul Gaultier La Belle Rosea",
+  precio: "$6.100",
+  categorias: ["Mujer", "Diseñador"],
+  aroma: "Acorde acuático, peonía, vainilla",
+  imagen: "img/jeanpaulrosa.png",
+  fotos: ["img/jeanpaulrosa.png"],
+  descripcion: "Jean Paul Gaultier La Belle Rosea es una fragancia femenina luminosa, floral y delicadamente dulce. Combina una frescura acuática con un corazón de peonía y un fondo avainillado elegante.",
+  notas: {
+    salida: "Acorde acuático",
+    corazon: "Peonía",
+    fondo: "Vainilla"
+  },
+  duracion: "Media a alta",
+  proyeccion: "Moderada"
+},
+{
+  id: "jpg-classique",
+  nombre: "Jean Paul Gaultier Classique",
+  precio: "$5.900",
+  categorias: ["Mujer", "Diseñador"],
+  aroma: "Flor de azahar, jengibre, vainilla",
+  imagen: "img/jeanpaulrosaentero.png",
+  fotos: ["img/jeanpaulrosaentero.png"],
+  descripcion: "Jean Paul Gaultier Classique es una fragancia femenina intensa, elegante y muy sensual. Sus notas florales y especiadas se combinan con una base cálida y avainillada que nunca pasa de moda.",
+  notas: {
+    salida: "Flor de azahar, anís estrellado, pera, mandarina, bergamota y rosa",
+    corazon: "Jengibre, iris, nardo, orquídea, ciruela y ylang-ylang",
+    fondo: "Vainilla, ámbar, almizcle, canela y sándalo"
+  },
+  duracion: "Alta",
+  proyeccion: "Alta"
+},
+{
+  id: "kenzo-homme-edp",
+  nombre: "Kenzo Homme Eau de Parfum",
+  precio: "$4.500",
+  categorias: ["Hombre", "Diseñador"],
+  aroma: "Notas marinas, cuero, pachulí",
+  imagen: "img/kenzohomme.png",
+  fotos: ["img/kenzohomme.png"],
+  descripcion: "Kenzo Homme Eau de Parfum es una fragancia masculina intensa y sofisticada. Su perfil marino con un fondo de cuero y maderas ofrece una propuesta elegante, moderna y muy versátil.",
+  notas: {
+    salida: "Notas marinas",
+    corazon: "Cuero",
+    fondo: "Pachulí y madera de oud"
+  },
+  duracion: "Alta",
+  proyeccion: "Media a alta"
+},
+{
+  id: "messi-edp",
+  nombre: "Messi Eau de Parfum",
+  precio: "$3.990",
+  categorias: ["Hombre", "Diseñador"],
+  aroma: "Cardamomo, lavanda, cedro",
+  imagen: "img/messiedp.png",
+  fotos: ["img/messiedp.png"],
+  descripcion: "Messi Eau de Parfum es una fragancia masculina moderna, fresca y elegante. Equilibra notas aromáticas y amaderadas con un fondo cálido, ideal para el uso diario o cualquier ocasión.",
+  notas: {
+    salida: "Cardamomo, manzana y hojas de ciprés",
+    corazon: "Lavanda, raíz de lirio y cuero",
+    fondo: "Cedro, haba tonka y ámbar"
+  },
+  duracion: "Media a alta",
+  proyeccion: "Moderada"
+},
+{
+  id: "tarab-crown-princess",
+  nombre: "T'Arab Crown Princess",
+  precio: "$2.800",
+  categorias: ["Árabes", "Mujer"],
+  aroma: "Dulce, floral, ámbar",
+  imagen: "img/taran-crownprincess.png",
+  fotos: ["img/taran-crownprincess.png"],
+  descripcion: "T'Arab Crown Princess es una fragancia femenina dulce, elegante y envolvente. Combina un perfil floral con un fondo cálido y sensual, ideal para quienes buscan un aroma llamativo y sofisticado.",
+  notas: {
+    salida: "Notas dulces y frutales",
+    corazon: "Flores blancas y acordes florales",
+    fondo: "Ámbar, vainilla y almizcle"
+  },
+  duracion: "Media a alta",
+  proyeccion: "Moderada"
+},
+{
+  id: "tommy-impact-intense",
+  nombre: "Tommy Impact Intense",
+  precio: "$3.500",
+  categorias: ["Hombre", "Diseñador"],
+  aroma: "Manzana roja, castaña, cedro",
+  imagen: "img/tommyimpactintense.png",
+  fotos: ["img/tommyimpactintense.png"],
+  descripcion: "Tommy Impact Intense es una fragancia masculina moderna, cálida y amaderada. Su salida frutal se mezcla con un corazón especiado y un fondo intenso, ideal para quienes buscan un perfume con más presencia.",
+  notas: {
+    salida: "Manzana roja, elemi y bergamota",
+    corazon: "Castaña, cardamomo, ámbar y ládano",
+    fondo: "Cedro, sándalo, akigalawood y haba tonka"
+  },
+  duracion: "Media a alta",
+  proyeccion: "Media a alta"
+},
+{
+  id: "tommy-impact-together",
+  nombre: "Tommy Impact Together",
+  precio: "$3.500",
+  categorias: ["Hombre", "Diseñador"],
+  aroma: "Notas minerales, salvia, vetiver",
+  imagen: "img/tommyimpacttogether.png",
+  fotos: ["img/tommyimpacttogether.png"],
+  descripcion: "Tommy Impact Together es una fragancia masculina fresca, acuática y moderna. Tiene un perfil limpio y aromático, ideal para el día a día, clima cálido o quienes buscan un perfume versátil y actual.",
+  notas: {
+    salida: "Acorde mineral y pimienta negra",
+    corazon: "Salvia y artemisa",
+    fondo: "Vetiver, cedro y akigalawood"
+  },
+  duracion: "Media",
+  proyeccion: "Moderada"
+},
+{
+  id: "moschino-toy-boy-2",
+  nombre: "Moschino Toy Boy 2",
+  precio: "$4.300",
+  categorias: ["Hombre", "Diseñador"],
+  aroma: "Café, jengibre, vetiver",
+  imagen: "img/toyboynegro.png",
+  fotos: ["img/toyboynegro.png"],
+  descripcion: "Moschino Toy Boy 2 es una fragancia masculina moderna, intensa y especiada. Combina un corazón de café con maderas y un fondo cálido, ofreciendo un aroma elegante y con mucha personalidad para destacar en cualquier ocasión.",
+  notas: {
+    salida: "Jengibre y nuez moscada",
+    corazon: "Café y Akigalawood",
+    fondo: "Vetiver y mirra"
+  },
+  duracion: "Alta",
+  proyeccion: "Moderada"
+},
+{
+  id: "moschino-toy-2-pearl",
+  nombre: "Moschino Toy 2 Pearl",
+  precio: "$4.300",
+  categorias: ["Unisex", "Diseñador"],
+  aroma: "Limón, jazmín, almizcle",
+  imagen: "img/toyboypearl.png",
+  fotos: ["img/toyboypearl.png"],
+  descripcion: "Moschino Toy 2 Pearl es una fragancia fresca, luminosa y moderna. Combina notas cítricas con un corazón floral y un fondo suave, ideal para quienes buscan un aroma limpio y diferente.",
+  notas: {
+    salida: "Limón, sorbete y orégano",
+    corazon: "Arena, fresia y jazmín",
+    fondo: "Almizcle, ciprés y vetiver"
+  },
+  duracion: "Media",
+  proyeccion: "Moderada"
+},
+{
+  id: "moschino-toy-2-bubble-gum",
+  nombre: "Moschino Toy 2 Bubble Gum",
+  precio: "$4.300",
+  categorias: ["Mujer", "Diseñador"],
+  aroma: "Frutas confitadas, rosa, almizcle",
+  imagen: "img/toyboyrosa.png",
+  fotos: ["img/toyboyrosa.png"],
+  descripcion: "Moschino Toy 2 Bubble Gum es una fragancia femenina divertida, dulce y moderna. Su combinación de frutas, flores y un fondo suave crea un aroma juvenil, llamativo y perfecto para quienes disfrutan los perfumes gourmand.",
+  notas: {
+    salida: "Frutas confitadas, naranja amarga y limón",
+    corazon: "Chicle, rosa de Bulgaria, durazno, canela, jengibre y arándanos",
+    fondo: "Almizcle, ambroxan y cedro"
+  },
+  duracion: "Media a alta",
+  proyeccion: "Moderada"
+},
+{
+  id: "versace-eros-pour-femme-edp",
+  nombre: "Versace Eros Pour Femme EDP",
+  precio: "$5.900",
+  categorias: ["Mujer", "Diseñador"],
+  aroma: "Limón siciliano, jazmín, almizcle",
+  imagen: "img/versace-eros.png",
+  fotos: ["img/versace-eros.png"],
+  descripcion: "Versace Eros Pour Femme Eau de Parfum es una fragancia femenina elegante, luminosa y seductora. Combina cítricos vibrantes con flores blancas y un fondo suave y sensual, ideal para cualquier ocasión.",
+  notas: {
+    salida: "Limón siciliano, bergamota de Calabria y granada",
+    corazon: "Jazmín Sambac, jazmín, flor de limón y peonía",
+    fondo: "Almizcle, ambrox, sándalo y notas amaderadas"
+  },
+  duracion: "Alta",
+  proyeccion: "Media a alta"
+},
 ];
 
 const productGrid = document.getElementById("productGrid");

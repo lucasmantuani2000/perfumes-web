@@ -9,6 +9,13 @@ body {
   background: #f7f7f7;
   color: #1f1f1f;
   line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 a {
@@ -64,42 +71,60 @@ a {
 .hero {
   min-height: 85vh;
   background:
-    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-    url("../img/banner.png") center/cover no-repeat;
+    linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+    url("../img/banner.png") right center/cover no-repeat;
   display: flex;
-  align-items: center;
-  padding: 0 8%;
+  align-items: flex-start;
+  padding: 90px 8% 0;
   color: #fff;
+  position: relative;
 }
 
 .hero-content {
-  max-width: 650px;
+  max-width: 620px;
+  margin-top: 35px;
 }
 
 .tag {
-  display: inline-block;
-  margin-bottom: 12px;
-  background: rgba(255,255,255,0.15);
-  padding: 6px 14px;
+  position: absolute;
+  right: 8%;
+  bottom: 35px;
+  background: rgba(0,0,0,0.35);
+  padding: 7px 15px;
   border-radius: 30px;
-  font-size: 14px;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+.tag:hover {
+  background: #ffffff;
+  color: #111;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.25);
 }
 
 .hero h1 {
-  font-size: 48px;
-  line-height: 1.1;
-  margin-bottom: 18px;
+  font-size: 56px;
+  line-height: 1.05;
+  margin-bottom: 20px;
+  max-width: 650px;
 }
 
 .hero p {
-  font-size: 18px;
-  margin-bottom: 28px;
+  font-size: 21px;
+  margin-bottom: 34px;
+  max-width: 480px;
 }
 
 .hero-buttons {
   display: flex;
-  gap: 14px;
+  gap: 18px;
   flex-wrap: wrap;
+}
+
+.hero-buttons .btn {
+  padding: 16px 28px;
+  font-size: 17px;
 }
 
 .btn {
@@ -253,9 +278,10 @@ a {
   background: #fff;
   max-width: 600px;
   width: 100%;
-  padding: 35px;
+  padding: 38px 32px;
   border-radius: 22px;
   box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  text-align: center;
 }
 
 .contact-box h1 {
@@ -284,6 +310,18 @@ a {
 .contact-info p {
   margin-bottom: 10px;
   color: #444;
+}
+
+.contact-box .btn {
+  margin: 10px auto 18px;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.email {
+  text-align: center;
 }
 
 /* DETALLE PERFUME */
@@ -472,4 +510,91 @@ a {
   .detalle-info h1 {
     font-size: 27px;
   }
+}
+
+.brand-filter {
+  margin-top: 18px;
+  max-width: 280px;
+}
+
+.brand-filter label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.brand-filter select {
+  width: 100%;
+  padding: 13px 16px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  background: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+}
+
+@media (max-width: 1200px) {
+  .hero {
+    background-position: center center;
+  }
+
+  .hero-content {
+    max-width: 520px;
+    margin-top: 10px;
+  }
+
+  .hero h1 {
+    font-size: 46px;
+    max-width: 520px;
+  }
+
+  .hero p {
+    font-size: 19px;
+    margin-bottom: 24px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .hero-buttons .btn {
+    min-width: 260px;
+    text-align: center;
+  }
+}
+
+.old-price {
+  display: block;
+  color: #999;
+  text-decoration: line-through;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 2px;
+}
+
+.whatsapp-float {
+  position: fixed;
+  right: 22px;
+  bottom: 75px;
+  width: 58px;
+  height: 58px;
+  background: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.25);
+  z-index: 999;
+  transition: 0.3s;
+}
+
+.whatsapp-float:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.3);
 }

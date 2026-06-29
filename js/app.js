@@ -2,332 +2,368 @@ const whatsappNumber = "59898303316";
 
 const perfumes = [
   {
-    id: "afnan-9pm",
-    nombre: "Lattafa AFNAN 9PM",
-    precio: "$3.990",
-    categorias: ["Árabes", "Hombre"],
-    aroma: "Vainilla, manzana, canela, dulce",
-    imagen: "img/9pm.png",
-    fotos: ["img/9pm.png"],
-    descripcion: "AFNAN 9PM es una fragancia dulce, intensa y moderna. Ideal para la noche, salidas, fiestas o momentos donde querés destacar.",
-    notas: {
-      salida: "Manzana, canela y bergamota",
-      corazon: "Lavanda, flor de azahar y notas dulces",
-      fondo: "Vainilla, haba tonka, ámbar y maderas"
-    },
-    duracion: "Alta",
-    proyeccion: "Alta"
+  id: "afnan-9pm",
+  nombre: "Lattafa AFNAN 9PM (Combo)",
+  marca: "Afnan",
+  precio: "$3.990",
+  categorias: ["Árabes", "Hombre"],
+  aroma: "Vainilla, manzana, canela, dulce",
+  imagen: "img/9pm.png",
+  fotos: ["img/9pm.png"],
+  descripcion: "AFNAN 9PM es una fragancia dulce, intensa y moderna. Ideal para la noche, salidas, fiestas o momentos donde querés destacar.",
+  notas: {
+    salida: "Manzana, canela y bergamota",
+    corazon: "Lavanda, flor de azahar y notas dulces",
+    fondo: "Vainilla, haba tonka, ámbar y maderas"
   },
-  {
-    id: "polo-black",
-    nombre: "Polo Black",
-    precio: "$3.400",
-    categorias: ["Hombre", "Diseñador"],
-    aroma: "Mango, pachulí, sándalo",
-    imagen: "img/polo-black.png",
-    fotos: ["img/polo-black.png"],
-    descripcion: "Polo Black es una fragancia masculina elegante, moderna y versátil. Combina un perfil fresco con un fondo más amaderado, ideal para uso diario, salidas o reuniones.",
-    notas: {
-      salida: "Mango helado, mandarina y limón",
-      corazon: "Salvia y hediona",
-      fondo: "Sándalo, pachulí y haba tonka"
-    },
-    duracion: "Media",
-    proyeccion: "Moderada"
+  duracion: "Alta",
+  proyeccion: "Alta"
+},
+{
+  id: "polo-black",
+  nombre: "Polo Ralph Lauren Black",
+  marca: "Ralph Lauren",
+  precio: "$3.400",
+  categorias: ["Hombre", "Diseñador"],
+  aroma: "Mango, pachulí, sándalo",
+  imagen: "img/polo-black.png",
+  fotos: ["img/polo-black.png"],
+  descripcion: "Polo Black es una fragancia masculina elegante, moderna y versátil. Combina un perfil fresco con un fondo más amaderado, ideal para uso diario, salidas o reuniones.",
+  notas: {
+    salida: "Mango helado, mandarina y limón",
+    corazon: "Salvia y hediona",
+    fondo: "Sándalo, pachulí y haba tonka"
   },
-  {
-    id: "hugo-boss-dark-blue",
-    nombre: "Hugo Boss Dark Blue",
-    precio: "$2.100",
-    categorias: ["Hombre", "Diseñador"],
-    aroma: "Cítrico, especiado, masculino",
-    imagen: "img/dark-blue.png",
-    fotos: ["img/dark-blue.png"],
-    descripcion: "Hugo Boss Dark Blue es un perfume masculino con carácter, de salida cítrica y un toque especiado. Es una opción accesible, diferente y con personalidad.",
-    notas: {
-      salida: "Naranja, jengibre, lima y limón",
-      corazon: "Geranio, ciprés y cardamomo",
-      fondo: "Vainilla, benjuí, vetiver y cedro"
-    },
-    duracion: "Media",
-    proyeccion: "Moderada"
+  duracion: "Media",
+  proyeccion: "Moderada"
+},
+{
+  id: "hugo-boss-dark-blue",
+  nombre: "Hugo Boss Dark Blue",
+  marca: "Hugo Boss",
+  precio: "$2.150",
+  precioAnterior: "$2.800",
+  oferta: true,
+  categorias: ["Hombre", "Diseñador"],
+  aroma: "Cítrico, especiado, masculino",
+  imagen: "img/dark-blue.png",
+  fotos: ["img/dark-blue.png"],
+  descripcion: "Hugo Boss Dark Blue es un perfume masculino con carácter, de salida cítrica y un toque especiado. Es una opción accesible, diferente y con personalidad.",
+  notas: {
+    salida: "Naranja, jengibre, lima y limón",
+    corazon: "Geranio, ciprés y cardamomo",
+    fondo: "Vainilla, benjuí, vetiver y cedro"
   },
-  {
-    id: "tommy-man",
-    nombre: "Tommy Man",
-    precio: "$2.300",
-    categorias: ["Hombre", "Diseñador"],
-    aroma: "Fresco, limpio, clásico",
-    imagen: "img/tommy-man.png",
-    fotos: ["img/tommy-man.png"],
-    descripcion: "Tommy Man es una fragancia fresca, juvenil y muy fácil de usar. Ideal para el día a día, clima cálido, trabajo, facultad o salidas informales.",
-    notas: {
-      salida: "Menta, lavanda, bergamota y pomelo",
-      corazon: "Manzana, arándano y rosa",
-      fondo: "Ámbar, cactus y algodón"
-    },
-    duracion: "Media",
-    proyeccion: "Suave a moderada"
+  duracion: "Media",
+  proyeccion: "Moderada"
+},
+{
+  id: "tommy-man",
+  nombre: "Tommy Man",
+  marca: "Tommy Hilfiger",
+  precio: "$2.300",
+  precioAnterior: "$4.600",
+  oferta: true,
+  categorias: ["Hombre", "Diseñador"],
+  aroma: "Fresco, limpio, clásico",
+  imagen: "img/tommy-man.png",
+  fotos: ["img/tommy-man.png"],
+  descripcion: "Tommy Man es una fragancia fresca, juvenil y muy fácil de usar. Ideal para el día a día, clima cálido, trabajo, facultad o salidas informales.",
+  notas: {
+    salida: "Menta, lavanda, bergamota y pomelo",
+    corazon: "Manzana, arándano y rosa",
+    fondo: "Ámbar, cactus y algodón"
   },
-  {
-    id: "tommy-girl-forever",
-    nombre: "Tommy Girl Forever",
-    precio: "$2.300",
-    categorias: ["Mujer", "Diseñador"],
-    aroma: "Pera, jazmín, ámbar",
-    imagen: "img/tommy-girl-forever.png",
-    fotos: ["img/tommy-girl-forever.png"],
-    descripcion: "Tommy Girl Forever es una fragancia femenina fresca, frutal y luminosa. Perfecta para quienes buscan un perfume moderno, elegante y versátil.",
-    notas: {
-      salida: "Pera, bergamota y mora",
-      corazon: "Jazmín, peonía e iris",
-      fondo: "Ámbar y sándalo"
-        },
-    duracion: "Media",
-    proyeccion: "Moderada"
+  duracion: "Media",
+  proyeccion: "Suave a moderada"
+},
+{
+  id: "tommy-girl-forever",
+  nombre: "Tommy Girl Forever",
+  marca: "Tommy Hilfiger",
+  precio: "$2.300",
+  precioAnterior: "$4.600",
+  oferta: true,
+  categorias: ["Mujer", "Diseñador"],
+  aroma: "Pera, jazmín, ámbar",
+  imagen: "img/tommy-girl-forever.png",
+  fotos: ["img/tommy-girl-forever.png"],
+  descripcion: "Tommy Girl Forever es una fragancia femenina fresca, frutal y luminosa. Perfecta para quienes buscan un perfume moderno, elegante y versátil.",
+  notas: {
+    salida: "Pera, bergamota y mora",
+    corazon: "Jazmín, peonía e iris",
+    fondo: "Ámbar y sándalo"
   },
-  {
-    id: "tommy-girl-now",
-    nombre: "Tommy Girl Now",
-    precio: "$2.300",
-    categorias: ["Mujer", "Diseñador"],
-    aroma: "Bergamota, magnolia, almizcle",
-    imagen: "img/tommy-girl-now.png",
-    fotos: ["img/tommy-girl-now.png"],
-    descripcion: "Tommy Girl Now es una fragancia femenina moderna, fresca y juvenil. Tiene un perfil alegre, frutal y fácil de usar todos los días.",
-    notas: {
-      salida: "Bergamota y mandarina",
-      corazon: "Magnolia y menta",
-      fondo: "Cachemira y almizcle"
-    },
-    duracion: "Media",
-    proyeccion: "Moderada"
+  duracion: "Media",
+  proyeccion: "Moderada"
+},
+{
+  id: "tommy-girl-now",
+  nombre: "Tommy Girl Now",
+  marca: "Tommy Hilfiger",
+  precio: "$2.300",
+  precioAnterior: "$4.600",
+  oferta: true,
+  categorias: ["Mujer", "Diseñador"],
+  aroma: "Bergamota, magnolia, almizcle",
+  imagen: "img/tommy-girl-now.png",
+  fotos: ["img/tommy-girl-now.png"],
+  descripcion: "Tommy Girl Now es una fragancia femenina moderna, fresca y juvenil. Tiene un perfil alegre, frutal y fácil de usar todos los días.",
+  notas: {
+    salida: "Bergamota y mandarina",
+    corazon: "Magnolia y menta",
+    fondo: "Cachemira y almizcle"
   },
-  {
-    id: "calvin-klein-eternity",
-    nombre: "Calvin Klein Eternity",
-    precio: "$2.600",
-    categorias: ["Hombre", "Diseñador"],
-    aroma: "Lavanda, cítrico, amaderado",
-    imagen: "img/ck-eternity.png",
-    fotos: ["img/ck-eternity.png"],
-    descripcion: "Calvin Klein Eternity es un clásico masculino fresco, limpio y elegante. Es ideal para uso diario, oficina o para quienes buscan un perfume sobrio y confiable.",
-    notas: {
-      salida: "Lavanda, mandarina, bergamota y limón",
-      corazon: "Cilantro, albahaca, jazmín y geranio",
-      fondo: "Sándalo, vetiver, ámbar y palo de rosa"
-    },
-    duracion: "Media",
-    proyeccion: "Moderada"
+  duracion: "Media",
+  proyeccion: "Moderada"
+},
+{
+  id: "calvin-klein-eternity",
+  nombre: "Calvin Klein Eternity",
+  marca: "Calvin Klein",
+  precio: "$1.900",
+  precioAnterior: "$3.800",
+  oferta: true,
+  categorias: ["Hombre", "Diseñador"],
+  aroma: "Lavanda, cítrico, amaderado",
+  imagen: "img/ck-eternity.png",
+  fotos: ["img/ck-eternity.png"],
+  descripcion: "Calvin Klein Eternity es un clásico masculino fresco, limpio y elegante. Es ideal para uso diario, oficina o para quienes buscan un perfume sobrio y confiable.",
+  notas: {
+    salida: "Lavanda, mandarina, bergamota y limón",
+    corazon: "Cilantro, albahaca, jazmín y geranio",
+    fondo: "Sándalo, vetiver, ámbar y palo de rosa"
   },
-  {
-    id: "calvin-klein-in2u",
-    nombre: "Calvin Klein IN2U",
-    precio: "$2.600",
-    categorias: ["Hombre", "Diseñador"],
-    aroma: "Cítrico, fresco, moderno",
-    imagen: "img/ck-in2u.png",
-    fotos: ["img/ck-in2u.png"],
-    descripcion: "Calvin Klein IN2U es una fragancia fresca, joven y moderna. Tiene una salida cítrica muy agradable y un fondo más cálido, ideal para el día a día.",
-    notas: {
-      salida: "Limón y hojas de tomate",
-      corazon: "Cacao y especias",
-      fondo: "Cedro, vetiver y almizcle blanco"
-    },
-    duracion: "Media",
-    proyeccion: "Moderada"
+  duracion: "Media",
+  proyeccion: "Moderada"
+},
+{
+  id: "calvin-klein-in2u",
+  nombre: "Calvin Klein IN2U",
+  marca: "Calvin Klein",
+  precio: "$2.800",
+  precioAnterior: "$4.600",
+  oferta: true,
+  categorias: ["Hombre", "Diseñador"],
+  aroma: "Cítrico, fresco, moderno",
+  imagen: "img/ck-in2u.png",
+  fotos: ["img/ck-in2u.png"],
+  descripcion: "Calvin Klein IN2U es una fragancia fresca, joven y moderna. Tiene una salida cítrica muy agradable y un fondo más cálido, ideal para el día a día.",
+  notas: {
+    salida: "Limón y hojas de tomate",
+    corazon: "Cacao y especias",
+    fondo: "Cedro, vetiver y almizcle blanco"
   },
-  {
-    id: "ch-212-nyc-mujer",
-    nombre: "Carolina Herrera 212 NYC",
-    precio: "$5.700",
-    categorias: ["Mujer", "Diseñador"],
-    aroma: "Floral, limpio, urbano",
-    imagen: "img/212-nyc-mujer.png",
-    fotos: ["img/212-nyc-mujer.png"],
-    descripcion: "CH 212 NYC Mujer es una fragancia limpia, moderna y urbana. Tiene un estilo fresco y floral, ideal para mujeres que buscan un aroma elegante sin ser pesado.",
-    notas: {
-      salida: "Flor de azahar, bergamota y mandarina",
-      corazon: "Gardenia, camelia, lirio y jazmín",
-      fondo: "Almizcle y sándalo"
-    },
-    duracion: "Media",
-    proyeccion: "Moderada"
+  duracion: "Media",
+  proyeccion: "Moderada"
+},
+{
+  id: "ch-212-nyc-mujer",
+  nombre: "Carolina Herrera 212 NYC",
+  marca: "Carolina Herrera",
+  precio: "$5.700",
+  categorias: ["Mujer", "Diseñador"],
+  aroma: "Floral, limpio, urbano",
+  imagen: "img/212-nyc-mujer.png",
+  fotos: ["img/212-nyc-mujer.png"],
+  descripcion: "CH 212 NYC Mujer es una fragancia limpia, moderna y urbana. Tiene un estilo fresco y floral, ideal para mujeres que buscan un aroma elegante sin ser pesado.",
+  notas: {
+    salida: "Flor de azahar, bergamota y mandarina",
+    corazon: "Gardenia, camelia, lirio y jazmín",
+    fondo: "Almizcle y sándalo"
   },
-  {
-    id: "queen-of-temptation-elegance",
-    nombre: "Queen of Temptation Elegance",
-    precio: "$1.500",
-    categorias: ["Árabes", "Mujer"],
-    aroma: "Dulce, floral, sensual",
-    imagen: "img/queen-seduction.png",
-    fotos: ["img/queen-seduction.png"],
-    descripcion: "Queen of Temptation Elegance es una fragancia femenina dulce y elegante, pensada para quienes buscan un aroma llamativo, sensual y accesible.",
-    notas: {
-      salida: "Notas frutales y dulces",
-      corazon: "Flores blancas y acordes florales",
-      fondo: "Vainilla, almizcle y ámbar"
-    },
-    duracion: "Media",
-    proyeccion: "Moderada"
+  duracion: "Media",
+  proyeccion: "Moderada"
+},
+{
+  id: "queen-of-temptation-elegance",
+  nombre: "Queen of Temptation Elegance",
+  marca: "Queen of Temptation",
+  precio: "$1.250",
+  categorias: ["Árabes", "Mujer"],
+  aroma: "Dulce, floral, sensual",
+  imagen: "img/queen-seduction.png",
+  fotos: ["img/queen-seduction.png"],
+  descripcion: "Queen of Temptation Elegance es una fragancia femenina dulce y elegante, pensada para quienes buscan un aroma llamativo, sensual y accesible.",
+  notas: {
+    salida: "Notas frutales y dulces",
+    corazon: "Flores blancas y acordes florales",
+    fondo: "Vainilla, almizcle y ámbar"
   },
-  {
-    id: "queen-of-temptation-seduction",
-    nombre: "Queen of Temptation Seduction",
-    precio: "$1.500",
-    categorias: ["Árabes", "Mujer"],
-    aroma: "Dulce, intenso, sensual",
-    imagen: "img/queen-seduction2.png",
-    fotos: ["img/queen-seduction2.png"],
-    descripcion: "Queen of Temptation Seduction es una fragancia femenina intensa, dulce y seductora. Ideal para salidas, noche o para quienes prefieren aromas más presentes.",
-    notas: {
-      salida: "Frutas dulces y notas brillantes",
-      corazon: "Flores intensas y acordes dulces",
-      fondo: "Vainilla, ámbar y almizcle"
-    },
-    duracion: "Media a alta",
-    proyeccion: "Moderada a alta"
+  duracion: "Media",
+  proyeccion: "Moderada"
+},
+{
+  id: "queen-of-temptation-seduction",
+  nombre: "Queen of Temptation Seduction",
+  marca: "Queen of Temptation",
+  precio: "$1.250",
+  categorias: ["Árabes", "Mujer"],
+  aroma: "Dulce, intenso, sensual",
+  imagen: "img/queen-seduction2.png",
+  fotos: ["img/queen-seduction2.png"],
+  descripcion: "Queen of Temptation Seduction es una fragancia femenina intensa, dulce y seductora. Ideal para salidas, noche o para quienes prefieren aromas más presentes.",
+  notas: {
+    salida: "Frutas dulces y notas brillantes",
+    corazon: "Flores intensas y acordes dulces",
+    fondo: "Vainilla, ámbar y almizcle"
   },
-  {
-    id: "queen-of-temptation-passion",
-    nombre: "Queen of Temptation Passion",
-    precio: "$1.500",
-    categorias: ["Árabes", "Mujer"],
-    aroma: "Jazmín, azafrán, cedro",
-    imagen: "img/queen-passion.png",
-    fotos: ["img/queen-passion.png"],
-    descripcion: "Queen of Temptation Passion es una fragancia femenina elegante, cálida y sofisticada. Combina notas florales con un fondo amaderado que deja una estela muy agradable.",
-    notas: {
-      salida: "Azafrán y notas luminosas",
-      corazon: "Jazmín",
-      fondo: "Cedro, ámbar y almizcle"
-    },
-    duracion: "Media a alta",
-    proyeccion: "Moderada"
+  duracion: "Media a alta",
+  proyeccion: "Moderada a alta"
+},
+{
+  id: "queen-of-temptation-passion",
+  nombre: "Queen of Temptation Passion",
+  marca: "Queen of Temptation",
+  precio: "$1.250",
+  categorias: ["Árabes", "Mujer"],
+  aroma: "Jazmín, azafrán, cedro",
+  imagen: "img/queen-passion.png",
+  fotos: ["img/queen-passion.png"],
+  descripcion: "Queen of Temptation Passion es una fragancia femenina elegante, cálida y sofisticada. Combina notas florales con un fondo amaderado que deja una estela muy agradable.",
+  notas: {
+    salida: "Azafrán y notas luminosas",
+    corazon: "Jazmín",
+    fondo: "Cedro, ámbar y almizcle"
   },
-  {
-    id: "lattafa-asad-bourbon",
-    nombre: "Lattafa Asad Bourbon",
-    precio: "$2.100",
-    categorias: ["Árabes", "Hombre"],
-    aroma: "Dulce, vainilla, cacao",
-    imagen: "img/asad-bourbon.png",
-    fotos: ["img/asad-bourbon.png"],
-    descripcion: "Lattafa Asad Bourbon es una fragancia árabe intensa, dulce y especiada. Tiene un perfil cálido, ideal para noche, invierno o para quienes buscan un perfume con presencia.",
-    notas: {
-      salida: "Pimienta rosa, lavanda y mirra",
-      corazon: "Cacao, davana y nuez moscada",
-      fondo: "Vainilla bourbon, ámbar y vetiver"
-    },
-    duracion: "Alta",
-    proyeccion: "Alta"
+  duracion: "Media a alta",
+  proyeccion: "Moderada"
+},
+{
+  id: "lattafa-asad-bourbon",
+  nombre: "Lattafa Asad Bourbon",
+  marca: "Lattafa",
+  precio: "$2.150",
+  categorias: ["Árabes", "Hombre"],
+  aroma: "Dulce, vainilla, cacao",
+  imagen: "img/asad-bourbon.png",
+  fotos: ["img/asad-bourbon.png"],
+  descripcion: "Lattafa Asad Bourbon es una fragancia árabe intensa, dulce y especiada. Tiene un perfil cálido, ideal para noche, invierno o para quienes buscan un perfume con presencia.",
+  notas: {
+    salida: "Pimienta rosa, lavanda y mirra",
+    corazon: "Cacao, davana y nuez moscada",
+    fondo: "Vainilla bourbon, ámbar y vetiver"
   },
-  {
-    id: "antonio-banderas-the-icon",
-    nombre: "Antonio Banderas The Icon",
-    precio: "$2.100",
-    categorias: ["Hombre", "Diseñador"],
-    aroma: "Pomelo, lavanda, sándalo",
-    imagen: "img/antonio-banderas-the-icon.png",
-    fotos: ["img/antonio-banderas-the-icon.png"],
-    descripcion: "Antonio Banderas The Icon es una fragancia masculina moderna, fresca y elegante. Buena opción para uso diario o para regalar.",
-    notas: {
-      salida: "Pomelo y pimienta negra",
-      corazon: "Lavanda",
-      fondo: "Sándalo y musgo de roble"
-    },
-    duracion: "Media",
-    proyeccion: "Moderada"
+  duracion: "Alta",
+  proyeccion: "Alta"
+},
+{
+  id: "antonio-banderas-the-icon",
+  nombre: "Antonio Banderas The Icon",
+  marca: "Antonio Banderas",
+  precio: "$1.990",
+  categorias: ["Hombre", "Diseñador"],
+  aroma: "Pomelo, lavanda, sándalo",
+  imagen: "img/antonio-banderas-the-icon.png",
+  fotos: ["img/antonio-banderas-the-icon.png"],
+  descripcion: "Antonio Banderas The Icon es una fragancia masculina moderna, fresca y elegante. Buena opción para uso diario o para regalar.",
+  notas: {
+    salida: "Pomelo y pimienta negra",
+    corazon: "Lavanda",
+    fondo: "Sándalo y musgo de roble"
   },
-  {
-    id: "burberry-london",
-    nombre: "Burberry London",
-    precio: "$3.100",
-    categorias: ["Mujer", "Diseñador"],
-    aroma: "Rosa, jazmín, madreselva",
-    imagen: "img/burberry-london.png",
-    fotos: ["img/burberry-london.png"],
-    descripcion: "Burberry London Mujer es una fragancia floral elegante, femenina y clásica. Ideal para quienes buscan un perfume delicado pero con presencia.",
-    notas: {
-      salida: "Rosa, madreselva y mandarina",
-      corazon: "Jazmín, peonía, flor de tiaré y clementina",
-      fondo: "Almizcle, sándalo y pachulí"
-    },
-    duracion: "Media",
-    proyeccion: "Moderada"
+  duracion: "Media",
+  proyeccion: "Moderada"
+},
+{
+  id: "burberry-london",
+  nombre: "Burberry London",
+  marca: "Burberry",
+  precio: "$3.100",
+  precioAnterior: "$4.500",
+  oferta: true,
+  categorias: ["Mujer", "Diseñador"],
+  aroma: "Rosa, jazmín, madreselva",
+  imagen: "img/burberry-london.png",
+  fotos: ["img/burberry-london.png"],
+  descripcion: "Burberry London Mujer es una fragancia floral elegante, femenina y clásica. Ideal para quienes buscan un perfume delicado pero con presencia.",
+  notas: {
+    salida: "Rosa, madreselva y mandarina",
+    corazon: "Jazmín, peonía, flor de tiaré y clementina",
+    fondo: "Almizcle, sándalo y pachulí"
   },
-  {
-    id: "ch-212-men-sexy",
-    nombre: "Carolina Herrera 212 MEN Sexy",
-    precio: "$3.800",
-    categorias: ["Hombre", "Diseñador"],
-    aroma: "Mandarina, pimienta, vainilla",
-    imagen: "img/212-men-sexy.png",
-    fotos: ["img/212-men-sexy.png"],
-    descripcion: "CH 212 Men Sexy es una fragancia masculina cálida, especiada y seductora. Ideal para noche, salidas o climas frescos.",
-    notas: {
-      salida: "Mandarina, bergamota y notas verdes",
-      corazon: "Pimienta, cardamomo y flores",
-      fondo: "Vainilla, sándalo, ámbar y almizcle"
-    },
-    duracion: "Media a alta",
-    proyeccion: "Moderada"
+  duracion: "Media",
+  proyeccion: "Moderada"
+},
+{
+  id: "ch-212-men-sexy",
+  nombre: "Carolina Herrera 212 MEN Sexy",
+  marca: "Carolina Herrera",
+  precio: "$3.800",
+  precioAnterior: "$4.500",
+  oferta: true,
+  categorias: ["Hombre", "Diseñador"],
+  aroma: "Mandarina, pimienta, vainilla",
+  imagen: "img/212-men-sexy.png",
+  fotos: ["img/212-men-sexy.png"],
+  descripcion: "CH 212 Men Sexy es una fragancia masculina cálida, especiada y seductora. Ideal para noche, salidas o climas frescos.",
+  notas: {
+    salida: "Mandarina, bergamota y notas verdes",
+    corazon: "Pimienta, cardamomo y flores",
+    fondo: "Vainilla, sándalo, ámbar y almizcle"
   },
-  {
-    id: "ch-212-vip-black",
-    nombre: "Carolina Herrera 212 VIP Black",
-    precio: "$3.800",
-    categorias: ["Hombre", "Diseñador"],
-    aroma: "Lavanda, anís, vainilla",
-    imagen: "img/212-vip-black.png",
-    fotos: ["img/212-vip-black.png"],
-    descripcion: "CH 212 VIP Black es una fragancia masculina intensa, dulce y nocturna. Tiene un perfil moderno y llamativo, ideal para fiestas y salidas.",
-    notas: {
-      salida: "Absenta, anís e hinojo",
-      corazon: "Lavanda",
-      fondo: "Vainilla negra y almizcle"
-    },
-    duracion: "Alta",
-    proyeccion: "Alta"
+  duracion: "Media a alta",
+  proyeccion: "Moderada"
+},
+{
+  id: "ch-212-vip-black",
+  nombre: "Carolina Herrera 212 VIP Black",
+  marca: "Carolina Herrera",
+  precio: "$4.200",
+  categorias: ["Hombre", "Diseñador"],
+  aroma: "Lavanda, anís, vainilla",
+  imagen: "img/212-vip-black.png",
+  fotos: ["img/212-vip-black.png"],
+  descripcion: "CH 212 VIP Black es una fragancia masculina intensa, dulce y nocturna. Tiene un perfil moderno y llamativo, ideal para fiestas y salidas.",
+  notas: {
+    salida: "Absenta, anís e hinojo",
+    corazon: "Lavanda",
+    fondo: "Vainilla negra y almizcle"
   },
-  {
-    id: "ch-212-men-nyc",
-    nombre: "Carolina Herrera 212 MEN NYC",
-    precio: "$3.800",
-    categorias: ["Hombre", "Diseñador"],
-    aroma: "Bergamota, jengibre, sándalo",
-    imagen: "img/212-nyc-men.png",
-    fotos: ["img/212-nyc-men.png"],
-    descripcion: "CH 212 Men NYC es una fragancia fresca, limpia y urbana. Muy versátil para el día a día, oficina o uso casual.",
-    notas: {
-      salida: "Bergamota, toronja, especias y petitgrain",
-      corazon: "Jengibre, gardenia, violeta y salvia",
-      fondo: "Sándalo, almizcle, vetiver y madera de gaiac"
-    },
-    duracion: "Media",
-    proyeccion: "Moderada"
+  duracion: "Alta",
+  proyeccion: "Alta"
+},
+{
+  id: "ch-212-men-nyc",
+  nombre: "Carolina Herrera 212 MEN NYC",
+  marca: "Carolina Herrera",
+  precio: "$3.100",
+  categorias: ["Hombre", "Diseñador"],
+  aroma: "Bergamota, jengibre, sándalo",
+  imagen: "img/212-nyc-men.png",
+  fotos: ["img/212-nyc-men.png"],
+  descripcion: "CH 212 Men NYC es una fragancia fresca, limpia y urbana. Muy versátil para el día a día, oficina o uso casual.",
+  notas: {
+    salida: "Bergamota, toronja, especias y petitgrain",
+    corazon: "Jengibre, gardenia, violeta y salvia",
+    fondo: "Sándalo, almizcle, vetiver y madera de gaiac"
   },
-  {
-    id: "dior-sauvage",
-    nombre: "Dior Sauvage",
-    precio: "$6.100",
-    categorias: ["Hombre", "Diseñador"],
-    aroma: "Pimienta, bergamota, ambroxan",
-    imagen: "img/dior-sauvage.png",
-    fotos: ["img/dior-sauvage.png"],
-    descripcion: "Dior Sauvage es una fragancia masculina fresca, intensa y muy reconocida. Es versátil, moderna y funciona muy bien tanto de día como de noche.",
-    notas: {
-      salida: "Bergamota de Calabria y pimienta",
-      corazon: "Lavanda, geranio, pimienta rosa y elemi",
-      fondo: "Ambroxan, cedro y ládano"
-    },
-    duracion: "Alta",
-    proyeccion: "Alta"
+  duracion: "Media",
+  proyeccion: "Moderada"
+},
+{
+  id: "dior-sauvage",
+  nombre: "Dior Sauvage",
+  marca: "Dior",
+  precio: "$5.100",
+  categorias: ["Hombre", "Diseñador"],
+  aroma: "Pimienta, bergamota, ambroxan",
+  imagen: "img/dior-sauvage.png",
+  fotos: ["img/dior-sauvage.png"],
+  descripcion: "Dior Sauvage es una fragancia masculina fresca, intensa y muy reconocida. Es versátil, moderna y funciona muy bien tanto de día como de noche.",
+  notas: {
+    salida: "Bergamota de Calabria y pimienta",
+    corazon: "Lavanda, geranio, pimienta rosa y elemi",
+    fondo: "Ambroxan, cedro y ládano"
   },
-  {
+  duracion: "Alta",
+  proyeccion: "Alta"
+},
+{
   id: "lattafa-yara-moi",
   nombre: "Lattafa Yara Moi",
-  precio: "$2.100",
+  marca: "Lattafa",
+  precio: "$2.150",
   categorias: ["Árabes", "Mujer"],
   aroma: "Jazmín, caramelo, sándalo",
   imagen: "img/asadblanco.png",
@@ -341,15 +377,15 @@ const perfumes = [
   duracion: "Alta",
   proyeccion: "Media a alta"
 },
-
 {
   id: "lattafa-yara",
   nombre: "Lattafa Yara",
-  precio: "$2.100",
+  marca: "Lattafa",
+  precio: "$2.150",
   categorias: ["Árabes", "Mujer"],
   aroma: "Orquídea, vainilla, frutas tropicales",
-  imagen: "img/lattafayara.png",
-  fotos: ["img/lattafayara.png"],
+  imagen: "img/lattafarosa.png",
+  fotos: ["img/lattafarosa.png"],
   descripcion: "Lattafa Yara es una fragancia femenina dulce, cremosa y moderna. Su combinación de frutas tropicales, flores delicadas y vainilla crea un aroma envolvente, ideal para quienes buscan un perfume elegante y muy femenino.",
   notas: {
     salida: "Heliotropo, orquídea y mandarina",
@@ -359,11 +395,13 @@ const perfumes = [
   duracion: "Alta",
   proyeccion: "Media a alta"
 },
-
 {
   id: "hugo-boss-bottled-tonic",
   nombre: "Hugo Boss Bottled Tonic",
+  marca: "Hugo Boss",
   precio: "$3.100",
+  precioAnterior: "$4.800",
+  oferta: true,
   categorias: ["Hombre", "Diseñador"],
   aroma: "Pomelo, jengibre, vetiver",
   imagen: "img/boss-tonic.png",
@@ -377,11 +415,13 @@ const perfumes = [
   duracion: "Media",
   proyeccion: "Moderada"
 },
-
 {
   id: "moschino-cheap-and-chic",
-  nombre: "Moschino Cheap & Chic",
-  precio: "$3.500",
+  nombre: "Moschino Cheap & Chic Love",
+  marca: "Moschino",
+  precio: "$2.300",
+  precioAnterior: "$4.200",
+  oferta: true,
   categorias: ["Mujer", "Diseñador"],
   aroma: "Durazno, rosa, almizcle",
   imagen: "img/cheapandchicLove.png",
@@ -395,11 +435,11 @@ const perfumes = [
   duracion: "Media",
   proyeccion: "Moderada"
 },
-
 {
   id: "cr7-game-on",
   nombre: "Cristiano Ronaldo Game On",
-  precio: "$2.300",
+  marca: "Cristiano Ronaldo",
+  precio: "$2.600",
   categorias: ["Hombre", "Diseñador"],
   aroma: "Manzana, lavanda, haba tonka",
   imagen: "img/cr7gameon.png",
@@ -416,7 +456,8 @@ const perfumes = [
 {
   id: "daisy-fuentes-dianoche-ocean",
   nombre: "Daisy Fuentes Dianoche Ocean",
-  precio: "$2.300",
+  marca: "Daisy Fuentes",
+  precio: "$1.600",
   categorias: ["Mujer", "Diseñador"],
   aroma: "Notas acuáticas, jazmín, coco",
   imagen: "img/daisydianoche.png",
@@ -432,8 +473,11 @@ const perfumes = [
 },
 {
   id: "issey-miyake-pour-homme",
-  nombre: "Issey Miyake Pour Homme",
-  precio: "$3.300",
+  nombre: "Issey Miyake Pour Homme (Combo)",
+  marca: "Issey Miyake",
+  precio: "$2.990",
+  precioAnterior: "$4.200",
+  oferta: true,
   categorias: ["Hombre", "Diseñador"],
   aroma: "Yuzu, especias, maderas",
   imagen: "img/issey-miyake-combo.png",
@@ -450,7 +494,10 @@ const perfumes = [
 {
   id: "issey-miyake-intense",
   nombre: "Issey Miyake Pour Homme Intense",
-  precio: "$2.700",
+  marca: "Issey Miyake",
+  precio: "$2.790",
+  precioAnterior: "$4.500",
+  oferta: true,
   categorias: ["Hombre", "Diseñador"],
   aroma: "Yuzu, incienso, ámbar",
   imagen: "img/issey-miyake-intense.png",
@@ -467,7 +514,8 @@ const perfumes = [
 {
   id: "jpg-le-beau-edt",
   nombre: "Jean Paul Gaultier Le Beau EDT",
-  precio: "$5.900",
+  marca: "Jean Paul Gaultier",
+  precio: "$5.300",
   categorias: ["Hombre", "Diseñador"],
   aroma: "Bergamota, coco, haba tonka",
   imagen: "img/jeanpauledtlebeauedt.png",
@@ -484,6 +532,7 @@ const perfumes = [
 {
   id: "jpg-le-beau-le-parfum",
   nombre: "Jean Paul Gaultier Le Beau Le Parfum",
+  marca: "Jean Paul Gaultier",
   precio: "$6.300",
   categorias: ["Hombre", "Diseñador"],
   aroma: "Coco, haba tonka, sándalo",
@@ -501,7 +550,8 @@ const perfumes = [
 {
   id: "jpg-le-male",
   nombre: "Jean Paul Gaultier Le Male",
-  precio: "$5.900",
+  marca: "Jean Paul Gaultier",
+  precio: "$5.600",
   categorias: ["Hombre", "Diseñador"],
   aroma: "Lavanda, vainilla, menta",
   imagen: "img/jeanpaullemale.png",
@@ -518,7 +568,8 @@ const perfumes = [
 {
   id: "jpg-la-belle-rosea",
   nombre: "Jean Paul Gaultier La Belle Rosea",
-  precio: "$6.100",
+  marca: "Jean Paul Gaultier",
+  precio: "$6.790",
   categorias: ["Mujer", "Diseñador"],
   aroma: "Acorde acuático, peonía, vainilla",
   imagen: "img/jeanpaulrosa.png",
@@ -535,7 +586,8 @@ const perfumes = [
 {
   id: "jpg-classique",
   nombre: "Jean Paul Gaultier Classique",
-  precio: "$5.900",
+  marca: "Jean Paul Gaultier",
+  precio: "$5.390",
   categorias: ["Mujer", "Diseñador"],
   aroma: "Flor de azahar, jengibre, vainilla",
   imagen: "img/jeanpaulrosaentero.png",
@@ -552,7 +604,10 @@ const perfumes = [
 {
   id: "kenzo-homme-edp",
   nombre: "Kenzo Homme Eau de Parfum",
-  precio: "$4.500",
+  marca: "Kenzo",
+  precio: "$5.590",
+  precioAnterior: "$7.800",
+  oferta: true,
   categorias: ["Hombre", "Diseñador"],
   aroma: "Notas marinas, cuero, pachulí",
   imagen: "img/kenzohomme.png",
@@ -569,7 +624,8 @@ const perfumes = [
 {
   id: "messi-edp",
   nombre: "Messi Eau de Parfum",
-  precio: "$3.990",
+  marca: "Messi",
+  precio: "$3.200",
   categorias: ["Hombre", "Diseñador"],
   aroma: "Cardamomo, lavanda, cedro",
   imagen: "img/messiedp.png",
@@ -586,7 +642,10 @@ const perfumes = [
 {
   id: "tarab-crown-princess",
   nombre: "T'Arab Crown Princess",
-  precio: "$2.800",
+  marca: "T'Arab",
+  precio: "$2.500",
+  precioAnterior: "$3.500",
+  oferta: true,
   categorias: ["Árabes", "Mujer"],
   aroma: "Dulce, floral, ámbar",
   imagen: "img/taran-crownprincess.png",
@@ -603,7 +662,8 @@ const perfumes = [
 {
   id: "tommy-impact-intense",
   nombre: "Tommy Impact Intense",
-  precio: "$3.500",
+  marca: "Tommy Hilfiger",
+  precio: "$3.990",
   categorias: ["Hombre", "Diseñador"],
   aroma: "Manzana roja, castaña, cedro",
   imagen: "img/tommyimpactintense.png",
@@ -620,7 +680,8 @@ const perfumes = [
 {
   id: "tommy-impact-together",
   nombre: "Tommy Impact Together",
-  precio: "$3.500",
+  marca: "Tommy Hilfiger",
+  precio: "$3.790",
   categorias: ["Hombre", "Diseñador"],
   aroma: "Notas minerales, salvia, vetiver",
   imagen: "img/tommyimpacttogether.png",
@@ -637,6 +698,7 @@ const perfumes = [
 {
   id: "moschino-toy-boy-2",
   nombre: "Moschino Toy Boy 2",
+  marca: "Moschino",
   precio: "$4.300",
   categorias: ["Hombre", "Diseñador"],
   aroma: "Café, jengibre, vetiver",
@@ -654,6 +716,7 @@ const perfumes = [
 {
   id: "moschino-toy-2-pearl",
   nombre: "Moschino Toy 2 Pearl",
+  marca: "Moschino",
   precio: "$4.300",
   categorias: ["Unisex", "Diseñador"],
   aroma: "Limón, jazmín, almizcle",
@@ -671,7 +734,8 @@ const perfumes = [
 {
   id: "moschino-toy-2-bubble-gum",
   nombre: "Moschino Toy 2 Bubble Gum",
-  precio: "$4.300",
+  marca: "Moschino",
+  precio: "$4.100",
   categorias: ["Mujer", "Diseñador"],
   aroma: "Frutas confitadas, rosa, almizcle",
   imagen: "img/toyboyrosa.png",
@@ -688,7 +752,8 @@ const perfumes = [
 {
   id: "versace-eros-pour-femme-edp",
   nombre: "Versace Eros Pour Femme EDP",
-  precio: "$5.900",
+  marca: "Versace",
+  precio: "$4.500",
   categorias: ["Mujer", "Diseñador"],
   aroma: "Limón siciliano, jazmín, almizcle",
   imagen: "img/versace-eros.png",
@@ -707,21 +772,55 @@ const perfumes = [
 const productGrid = document.getElementById("productGrid");
 const searchInput = document.getElementById("searchInput");
 const filterButtons = document.querySelectorAll(".filter-btn");
+const brandSelect = document.getElementById("brandSelect");
 
 let currentCategory = "Todos";
+let currentBrand = "Todas";
+
+function crearCard(perfume) {
+  const card = document.createElement("div");
+  card.classList.add("product-card");
+
+  card.innerHTML = `
+    <a href="detalle.html?id=${perfume.id}" class="product-image-link">
+      <img src="${perfume.imagen}" alt="${perfume.nombre}">
+    </a>
+
+    <div class="product-info">
+      <h3>${perfume.nombre}</h3>
+
+      <p class="price">
+        ${perfume.precioAnterior ? `<span class="old-price">${perfume.precioAnterior}</span>` : ""}
+        <span>${perfume.precio}</span>
+      </p>
+
+      <p class="notes">Aroma: ${perfume.aroma}</p>
+
+      <a href="detalle.html?id=${perfume.id}" class="btn">Ver detalle</a>
+    </div>
+  `;
+
+  return card;
+}
 
 function renderPerfumes() {
+  if (!productGrid || !searchInput) return;
+
   const searchText = searchInput.value.toLowerCase();
 
   const filteredPerfumes = perfumes.filter(perfume => {
     const matchesCategory =
-        currentCategory === "Todos" || perfume.categorias.includes(currentCategory);
+      currentCategory === "Todos" || perfume.categorias.includes(currentCategory);
+
+    const matchesBrand =
+      currentBrand === "Todas" || perfume.marca === currentBrand;
 
     const matchesSearch =
       perfume.nombre.toLowerCase().includes(searchText) ||
-      perfume.aroma.toLowerCase().includes(searchText);
+      perfume.aroma.toLowerCase().includes(searchText) ||
+      perfume.marca.toLowerCase().includes(searchText);
 
-    return matchesCategory && matchesSearch;
+    return matchesCategory && matchesBrand && matchesSearch;
   });
 
   productGrid.innerHTML = "";
@@ -732,27 +831,37 @@ function renderPerfumes() {
   }
 
   filteredPerfumes.forEach(perfume => {
-    const message = `Hola, me interesa el ${perfume.nombre}. ¿Sigue disponible?`;
-    const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+    productGrid.appendChild(crearCard(perfume));
+  });
+}
 
-    const card = document.createElement("div");
-    card.classList.add("product-card");
+function cargarMarcas() {
+  if (!brandSelect) return;
 
-    card.innerHTML = `
-        <a href="detalle.html?id=${perfume.id}" class="product-image-link">
-          <img src="${perfume.imagen}" alt="${perfume.nombre}">
-        </a>
+  const marcas = [...new Set(perfumes.map(perfume => perfume.marca))].sort();
 
-        <div class="product-info">
-          <h3>${perfume.nombre}</h3>
-          <p class="price">${perfume.precio}</p>
-          <p class="notes">Aroma: ${perfume.aroma}</p>
+  marcas.forEach(marca => {
+    const option = document.createElement("option");
+    option.value = marca;
+    option.textContent = marca;
+    brandSelect.appendChild(option);
+  });
+}
 
-          <a href="detalle.html?id=${perfume.id}" class="btn">Ver detalle</a>
-        </div>
-      `;
+function renderOfertasPage() {
+  if (!ofertasGrid) return;
 
-    productGrid.appendChild(card);
+  const ofertas = perfumes.filter(perfume => perfume.oferta);
+
+  ofertasGrid.innerHTML = "";
+
+  if (ofertas.length === 0) {
+    ofertasGrid.innerHTML = "<p>No hay ofertas disponibles en este momento.</p>";
+    return;
+  }
+
+  ofertas.forEach(perfume => {
+    ofertasGrid.appendChild(crearCard(perfume));
   });
 }
 
@@ -769,6 +878,13 @@ if (filterButtons.length > 0) {
       currentCategory = button.dataset.category;
       renderPerfumes();
     });
+  });
+}
+
+if (brandSelect) {
+  brandSelect.addEventListener("change", () => {
+    currentBrand = brandSelect.value;
+    renderPerfumes();
   });
 }
 
@@ -807,7 +923,11 @@ if (detalleContainer) {
         <div class="detalle-info">
           <p class="detalle-categoria">${perfume.categorias.join(" • ")}</p>
           <h1>${perfume.nombre}</h1>
-          <p class="detalle-precio">${perfume.precio}</p>
+
+          <p class="detalle-precio">
+            ${perfume.precioAnterior ? `<span class="old-price">${perfume.precioAnterior}</span>` : ""}
+            <span>${perfume.precio}</span>
+          </p>
 
           <p class="detalle-descripcion">${perfume.descripcion}</p>
 
@@ -832,5 +952,10 @@ if (detalleContainer) {
 }
 
 if (productGrid) {
+  cargarMarcas();
   renderPerfumes();
+}
+
+if (ofertasGrid) {
+  renderOfertasPage();
 }
